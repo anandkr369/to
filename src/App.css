@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+    background-color: #3498db;
+}
+
+.task-input {
+    border: 2px solid #ccc;
+}
+
+.add-task {
+    background-color: #2ecc71;
+}
+
+.task-list {
+    text-align: center;
+}
+
+.task-item {
+    transition: background-color 0.3s ease;
+}
+
+.task-item:hover {
+    background-color: #f0f0f0;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.completed-btn {
+    background-color: #f39c12;
+}
+
+.remove-btn {
+    background-color: #e74c3c;
+}
